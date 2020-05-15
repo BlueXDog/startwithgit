@@ -19,6 +19,6 @@ io.sockets.on('connection', function (socket) {
   
 app.get("/",function (req,res,next) {
     res.sendFile(__dirname+"/index.html");
-    console.log("server is interacting with client");
+    console.log("server is interacting with client fasdfasf");
 
 });
